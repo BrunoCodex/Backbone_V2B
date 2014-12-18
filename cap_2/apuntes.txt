@@ -1,0 +1,14 @@
+Modelo = Base de Datos
+REST = Backbone SIncronizacion de datos usa REST
+
+
+
+http://www.divierteteyaprende.pe/
+http://www.serviciosalciudadano.gob.pe/tramites/10407/2_1_1_0.htm
+http://www.cepu.com.mx/index.html
+http://www.untumbes.edu.pe/blogs/index.php/el-cepu-inicia-ciclo-de-preparacion-enero-marzo-2014-ia/
+http://www.upch.edu.pe/vracad/cfpu/index.asp
+http://www.unjbg.edu.pe/sist_cepu/#inicio
+http://www.onersy.com/cepu/index.html
+http://www.untumbes.edu.pe/unitumbes/paginas/pages/cenpro/cepunt/
+http://www.untumbes.edu.pe/paginas/cepu/
