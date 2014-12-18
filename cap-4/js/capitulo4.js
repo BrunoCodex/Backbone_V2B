@@ -1,5 +1,5 @@
- var paneles;
- var num_paneles;
+var paneles;
+var num_paneles;
 $(document).ready(function(){
   
   var PanelesCollection = Backbone.Collection.extend(
@@ -27,6 +27,8 @@ $(document).ready(function(){
     paneles.add({txt:"este es el panel 4", rotulo:"Panel 4", id:"4"});
   });*/
 
+  num_paneles = paneles.length + 1;
+
   
   $("#create_button").click(function(){
     // alert("Hola");
@@ -38,9 +40,17 @@ $(document).ready(function(){
     /*trace(paneles);*/
 
 
-    paneles.add({txt:"este es el panel 4", rotulo:"Panel 4", id:"4"})
+    paneles.add({txt:"este es el panel "+num_paneles, rotulo:"Panel "+num_paneles, id: num_paneles});
+    num_paneles++;
   });
 
+  $("#delete_button").click(function(){
+    paneles.remove(paneles.at(0));
+  });
+
+  $("#delete_button_ID").click(function(){
+    paneles.remove(paneles.get($("#rot_del").val()));
+  });
 });
 
 function onChangePanels(model, collection){
